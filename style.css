@@ -1,5 +1,9 @@
+:root {
+    --main-and-footer-heading-color: #ff0000;  
+}
+
 a[href^="https"] {
-    color: red;
+    color: var(--main-and-footer-heading-color);
 }
 
 ul + p {
